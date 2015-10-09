@@ -1,7 +1,10 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
+/*
+La complejidad de este algoritmo es O(n^2) porque se esta realizando un for 
+dentro del while para poder ir checando si un hombre puede estar con una mujer
+*/
 
 bool prefiere(std::vector<std::vector<int>>, int, int, int, int); 
 
@@ -11,7 +14,8 @@ int main()
 {
 	int n = 4;
 	std::vector<std::vector<int>> preferencias(2 * n, std::vector<int>(n));
-	preferencias = { { 6, 5, 4, 7 },
+	preferencias = { 
+	{ 6, 5, 4, 7 },
 	{ 5, 7, 4, 6 },
 	{ 6, 4, 7, 5 },
 	{ 4, 5, 6, 7 },

@@ -3,6 +3,12 @@
 #include <vector>
 #include <algorithm>
 
+/*
+La complejidad O(n*m) porque se recorren ambos arreglos para
+poder generar la matriz e ir chechando hasta llegar al tamaño
+maximo de las subsecuencias
+*/
+
 template<class T>
 std::vector<int> calcularSub(std::vector<T>, std::vector<T>);
 

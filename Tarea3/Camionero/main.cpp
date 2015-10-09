@@ -1,6 +1,10 @@
 #include <iostream>
 #include <string>
 #include <vector>
+/*
+La complejidad es O(n) porque va a solo recorrer un for para ir checando
+si le alcanza la gasolina para poder llegar al siguiente destino
+*/
 
 int main()
 {
