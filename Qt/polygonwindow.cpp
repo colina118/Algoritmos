@@ -7,6 +7,7 @@ polygonwindow::polygonwindow(QWidget *parent) :
     ui(new Ui::polygonwindow)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Transformaciones");
 }
 
 polygonwindow::~polygonwindow()
@@ -215,7 +216,6 @@ void polygonwindow::paintArch(QPainter &painter)
 
 void polygonwindow::on_paintPolygon_clicked()
 {
-    qDebug() << "hi";
     transforms.clear();
     aletzis = true;
     update();

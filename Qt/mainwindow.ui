@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>909</width>
-    <height>510</height>
+    <width>452</width>
+    <height>309</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,14 +17,14 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>170</y>
-      <width>75</width>
-      <height>23</height>
+      <x>60</x>
+      <y>90</y>
+      <width>311</width>
+      <height>151</height>
      </rect>
     </property>
     <property name="text">
-     <string>Poligonos</string>
+     <string>Inicia</string>
     </property>
    </widget>
   </widget>
@@ -33,7 +33,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>909</width>
+     <width>452</width>
      <height>21</height>
     </rect>
    </property>

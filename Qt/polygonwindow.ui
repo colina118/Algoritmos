@@ -22,6 +22,9 @@
      <height>21</height>
     </rect>
    </property>
+   <property name="text">
+    <string>10</string>
+   </property>
   </widget>
   <widget class="QToolButton" name="Translate">
    <property name="geometry">
@@ -44,6 +47,9 @@
      <width>51</width>
      <height>20</height>
     </rect>
+   </property>
+   <property name="text">
+    <string>10</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
@@ -81,6 +87,9 @@
      <height>20</height>
     </rect>
    </property>
+   <property name="text">
+    <string>30</string>
+   </property>
   </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
@@ -117,6 +126,9 @@
      <height>20</height>
     </rect>
    </property>
+   <property name="text">
+    <string>2</string>
+   </property>
   </widget>
   <widget class="QLineEdit" name="scaleX">
    <property name="geometry">
@@ -126,6 +138,9 @@
      <width>51</width>
      <height>20</height>
     </rect>
+   </property>
+   <property name="text">
+    <string>2</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
@@ -294,6 +309,9 @@
      <height>20</height>
     </rect>
    </property>
+   <property name="text">
+    <string>50</string>
+   </property>
   </widget>
   <widget class="QLineEdit" name="Radius">
    <property name="geometry">
@@ -303,6 +321,9 @@
      <width>41</width>
      <height>20</height>
     </rect>
+   </property>
+   <property name="text">
+    <string>50</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_7">
